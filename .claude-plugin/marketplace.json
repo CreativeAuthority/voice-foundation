@@ -1,0 +1,32 @@
+{
+  "name": "creative-authority",
+  "owner": {
+    "name": "Matt Goldman",
+    "url": "https://agentslearnai.com"
+  },
+  "description": "Creative Authority plugins for real estate professionals.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "voice-foundation",
+      "source": "./voice-foundation",
+      "displayName": "Voice Foundation",
+      "description": "A guided interview that teaches your AI how you think, decide, and sound, then drafts listing copy, marketing, and client email in your voice instead of everyone else's.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Goldman",
+        "url": "https://agentslearnai.com"
+      },
+      "homepage": "https://agentslearnai.com",
+      "keywords": [
+        "voice",
+        "authorship",
+        "real estate",
+        "listing description",
+        "brand voice",
+        "copywriting"
+      ],
+      "license": "Proprietary"
+    }
+  ]
+}

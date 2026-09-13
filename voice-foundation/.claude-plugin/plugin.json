@@ -1,0 +1,31 @@
+{
+  "name": "voice-foundation",
+  "version": "1.0.0",
+  "description": "Voice Foundation by Creative Authority. A guided interview that captures how you think, decide, and communicate, then writes it into a foundation your AI reads every time it drafts for you. Produces your Voice Foundation document, a branded PDF with a portable operating prompt you can paste into any AI, and a drafting skill that writes listing descriptions, marketing copy, and client emails in your voice instead of everyone else's.",
+  "author": {
+    "name": "Matt Goldman",
+    "url": "https://agentslearnai.com"
+  },
+  "homepage": "https://agentslearnai.com",
+  "keywords": [
+    "voice foundation",
+    "authorship",
+    "canonical voice",
+    "mission statement",
+    "decision rules",
+    "operating prompt",
+    "write in my voice",
+    "sounds like me",
+    "listing description",
+    "listing copy",
+    "marketing copy",
+    "client email",
+    "real estate",
+    "realtor",
+    "AI writing",
+    "brand voice",
+    "start here",
+    "creative authority"
+  ],
+  "license": "Proprietary"
+}
