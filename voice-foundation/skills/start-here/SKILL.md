@@ -11,9 +11,9 @@ Get the agent to the right next step in one short exchange. Never present a menu
 
 ## First, look
 
-Check the agent's connected folder for `voice_foundation.md`.
+Look for `voice_foundation.md` in a connected folder, if there is one.
 
-If no folder is connected, that is the only problem worth solving right now. Tell them their foundation is a document that lives on their own computer, so Claude needs a folder to save it into, and they add one in the Claude desktop app. Then stop. Do not start the interview.
+A missing folder is not a problem and never a reason to stop. The interview runs without one and saving is handled at the end. Do not mention folders unless the agent asks.
 
 ## If the foundation does not exist yet
 

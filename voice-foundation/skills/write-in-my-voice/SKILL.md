@@ -15,7 +15,15 @@ Draft something the agent will put their name on, in their voice, from their own
 
 Read `voice_foundation.md` from the agent's folder. If it is not there, look once for `canonical_voice.md` and `CLAUDE.md` as a legacy pair and use those instead.
 
-If none of them resolve, stop. Say plainly that you cannot draft in their voice because their foundation has not been built yet, and offer to run it: "Say `run my voice foundation` and we will build it. It takes two guided conversations."
+If none of them resolve, stop and give them the way forward in one short exchange. Two cases, and you cannot tell them apart, so ask:
+
+"I can't find your Voice Foundation in this session. Have you built it yet?"
+
+If they have not, offer to run it: "Say `run the voice foundation` and we'll build it. Two guided conversations."
+
+If they have, the document just is not reachable from this session. Ask them to paste it, or to point you at the folder it is in, and say once that connecting that folder in the desktop app makes it automatic from then on. Then draft.
+
+One exception. If this session already carries their foundation ambiently, because they pasted their operating prompt into this project's custom instructions, you do not need the file. You can tell: the mission, the boundaries and the failure signature are already in front of you. In that case say nothing about missing files and draft from what you have, holding to every step below.
 
 Never draft from a general register while the foundation is missing. A generic draft handed over under their name is the exact failure this product exists to prevent, and it is worse than no draft, because they might send it.
 

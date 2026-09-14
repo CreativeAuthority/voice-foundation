@@ -19,6 +19,8 @@ The agent's folder must already contain a complete `voice_foundation.md`, with b
 2. The Q&A from both sessions, in the agent's own answers, lightly cleaned, with written and spoken voice anchors as pull quotes.
 3. One paste-ready operating prompt that combines mission, decision rules, and voice, ending with a short WHAT TO ALWAYS ASK ME FIRST list.
 
+The operating prompt is not an appendix. It is one of the two ways this product actually gets used: pasted into a Claude project's custom instructions, or into any other AI, it carries the agent's voice everywhere without a file or a folder. Write it so it stands completely on its own, readable by a model that has never seen the foundation document, and put the failure signature inside it rather than referring to it.
+
 ## Steps
 
 1. Read `voice_foundation.md` and the interview answers from this foundation.

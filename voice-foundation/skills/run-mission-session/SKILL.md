@@ -73,7 +73,7 @@ Before assembly, read back the four or five rules that matter most and the hard 
 
 ## Assembly
 
-Create `voice_foundation.md` in the agent's folder using `${CLAUDE_PLUGIN_ROOT}/references/output-schema.md`. Write the title and every section from `## Identity and Business` through `## When to Stop and Ask`. Stop there. Session 2 appends the voice sections to this same file.
+Assemble the document using `${CLAUDE_PLUGIN_ROOT}/references/output-schema.md`. Write it to `voice_foundation.md` in the agent's connected folder if there is one. If there is not, hold the assembled text and show it to them in the chat instead, without commentary about folders. Saving is handled at the end of the foundation, not here, and it never blocks the interview. Write the title and every section from `## Identity and Business` through `## When to Stop and Ask`. Stop there. Session 2 appends the voice sections to this same file.
 
 Write in the agent's first person, present tense, addressed to the AI as operator. Preserve their phrasing; do not upgrade their personality. Fill Identity and Business from Part 0 and Who I Serve from Part 1. Write the Mission as 2 to 5 short paragraphs. Convert every captured scenario into an enforceable IF/THEN. Phrase each boundary as a hard limit the model can check itself against, including that AI-generated judgment is never presented as the agent's professional recommendation. List the concrete stop-and-ask triggers. Remove repetition. Do not invent: if a section is thin, leave a bracketed note asking the agent to add it.
 

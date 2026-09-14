@@ -9,7 +9,7 @@ description: >
 
 Run Session 2 of the Voice Foundation as a guided interview, then append the voice sections to `voice_foundation.md`. This session captures how the agent sounds in writing and out loud. It assumes Session 1 already wrote the mission half of that file, and it does not re-elicit or repeat decision logic. Output structure is in `${CLAUDE_PLUGIN_ROOT}/references/output-schema.md`.
 
-If `voice_foundation.md` does not exist, stop and run `run-mission-session` first. The voice sections are read together with the mission, and on their own they produce mimicry.
+If the mission half does not exist yet, either as a file or earlier in this conversation, run `run-mission-session` first. The voice sections are read together with the mission, and on their own they produce mimicry.
 
 ## Interviewer stance
 
@@ -47,10 +47,10 @@ Extraction targets: for each channel, a specific audience and intent, lead-with 
 
 ## Assembly
 
-Open `voice_foundation.md` and append `## Written Voice` through `## Voice Permissions`, using `${CLAUDE_PLUGIN_ROOT}/references/output-schema.md`. Do not rewrite or reorder anything Session 1 wrote.
+Append `## Written Voice` through `## Voice Permissions` to the document Session 1 produced, using `${CLAUDE_PLUGIN_ROOT}/references/output-schema.md`. If it exists as a file, open it and append. If it does not, work from the version in the conversation. Do not rewrite or reorder anything Session 1 wrote.
 
 Keep Written Voice and Spoken Voice as two fully separate systems. Paste anchors verbatim, including dictated filler; do not convert spoken cadence into written prose. Build patterns from confirmed observations using the agent's real use and avoid lists. Make the avoid list and failure signature specific, since they are what protect against generic AI output. Scope Voice Permissions to voice only and point back to the AI Boundaries section rather than restating it. Do not invent: leave a bracketed request for any missing anchor rather than fabricating one.
 
 ## Confirm it resolved
 
-Before you finish, check that `voice_foundation.md` contains `## AI Boundaries` and at least one `### Failure signature`. If either is missing, the foundation will not pass the check that drafting skills run, and it will refuse to draft. Fix it now rather than letting the agent discover it later.
+Before you finish, check that the finished document contains `## AI Boundaries` and at least one `### Failure signature`. If either is missing, the foundation will not pass the check that drafting skills run, and it will refuse to draft. Fix it now rather than letting the agent discover it later.
