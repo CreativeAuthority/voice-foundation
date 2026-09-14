@@ -1,0 +1,26 @@
+{
+  "name": "voice-foundation",
+  "version": "1.0.0",
+  "description": "Guided mission, decision rules, and voice foundation for real estate agents.",
+  "author": {
+    "name": "Matt Goldman / Creative Authority"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Voice Foundation",
+    "shortDescription": "Your values, judgment, and voice. Built together.",
+    "longDescription": "Two guided conversations for real estate agents. Build your mission, decision rules, and written and spoken voice; receive a PDF, portable instructions, and a private personalized writing skill.",
+    "developerName": "Creative Authority",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Start my voice foundation",
+      "Continue my voice foundation",
+      "Write this in my voice"
+    ],
+    "brandColor": "#173F43",
+    "logo": "./assets/logo.png"
+  }
+}

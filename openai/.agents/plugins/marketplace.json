@@ -1,0 +1,20 @@
+{
+  "name": "creative-authority-openai",
+  "interface": {
+    "displayName": "Creative Authority Openai"
+  },
+  "plugins": [
+    {
+      "name": "voice-foundation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/voice-foundation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
