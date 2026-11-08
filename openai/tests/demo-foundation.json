@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "agent_id": "18bda2ac-f404-43a7-bf2b-671323c2ac55",
+  "revision": 1,
+  "date": "2026-09-13",
+  "demo": true,
+  "identity": {
+    "name": "Alex Example",
+    "business": "Example Realty — Fictional Demo",
+    "market": "Maple Harbor (fictional)"
+  },
+  "profile": {
+    "best_fit": "First-time buyers who want a clear explanation of the process.",
+    "poor_fit": "Clients who require a promised result.",
+    "protected_outcomes": "A manageable budget and a decision the client understands and owns.",
+    "trust_sequence": "Ask what worries them most, explain the next step, and check understanding."
+  },
+  "mission": [
+    "I help first-time buyers make housing decisions they understand. I start with what worries them and make the next step clear.",
+    "I protect the budget my client chose and explain what a choice would change. I do not promise a result or turn uncertainty into pressure. The decision belongs to the client."
+  ],
+  "decision_rules": [
+    {
+      "trigger": "a buyer asks to stretch beyond the monthly payment they chose",
+      "response": "I return to their full monthly costs and ask what changed before discussing a higher offer",
+      "evidence_ids": [
+        "budget"
+      ]
+    },
+    {
+      "trigger": "a buyer wants to waive an inspection without understanding the risks",
+      "response": "I explain the protection they would lose and leave the decision with them",
+      "evidence_ids": [
+        "inspection"
+      ]
+    },
+    {
+      "trigger": "a seller asks for a price that the available comparable sales do not support",
+      "response": "I show the evidence and explain the uncertainty before accepting the price as our plan",
+      "evidence_ids": [
+        "price"
+      ]
+    },
+    {
+      "trigger": "a client cannot explain the next step in their own words",
+      "response": "I slow down and explain that step before moving forward",
+      "evidence_ids": [
+        "pause"
+      ]
+    }
+  ],
+  "ai_boundaries": [
+    "Never invent property features or manufacture urgency.",
+    "Never choose a price or present AI judgment as my professional recommendation."
+  ],
+  "stop_and_ask": [
+    "Ask when a material property fact is missing.",
+    "Ask when a draft would commit me to a recommendation."
+  ],
+  "voice_permissions": {
+    "may": [
+      "Organize my notes and draft from facts I supply."
+    ],
+    "never": [
+      "Change my intent or add urgency."
+    ],
+    "uncertain": [
+      "Compare the anchor and ask about the specific line that is uncertain."
+    ]
+  },
+  "provenance": {
+    "mission": [
+      "profile",
+      "budget",
+      "price"
+    ],
+    "profile": [
+      "profile"
+    ],
+    "ai_boundaries": [
+      "limits"
+    ],
+    "stop_and_ask": [
+      "limits"
+    ],
+    "voice_permissions": [
+      "limits"
+    ]
+  },
+  "review": {
+    "mission_confirmed": true,
+    "voice_confirmed": true,
+    "final_confirmed": true,
+    "open_gaps": [],
+    "confirmation_quote": "Yes. The mission, rules, and both voices reflect how I work. Keep those exact examples.",
+    "evidence_ids": [
+      "review"
+    ]
+  },
+  "written": {
+    "audience": "First-time buyers working through a consequential choice.",
+    "intent": "Leave them clear about the next step and comfortable asking a question.",
+    "rhythm": "Short paragraphs, a choice followed by its consequence.",
+    "rules": [
+      "Lead with the choice and explain its consequence."
+    ],
+    "use": [
+      "two workable options"
+    ],
+    "avoid": [
+      "dream home",
+      "act now"
+    ],
+    "failure_signature": [
+      "Exclamation-heavy cheerleading."
+    ],
+    "evidence_ids": [
+      "w",
+      "patterns"
+    ],
+    "anchor": {
+      "text": "You have two workable options. The first keeps the payment where you wanted it. The second gets you the extra room, but it changes what you have left each month. I would start with that monthly number. We can look at the houses again once you feel clear about it. There is no need to decide from this email.",
+      "source": "Fictional evaluation sample — written",
+      "evidence_id": "w"
+    }
+  },
+  "spoken": {
+    "audience": "First-time buyers working through a consequential choice.",
+    "intent": "Leave them clear about the next step and comfortable asking a question.",
+    "rhythm": "Short conversational turns; acknowledge, pause, ask one question.",
+    "rules": [
+      "Acknowledge the concern before asking a question."
+    ],
+    "use": [
+      "let’s slow this down"
+    ],
+    "avoid": [
+      "you have to"
+    ],
+    "failure_signature": [
+      "A three-paragraph monologue that leaves no space for an answer."
+    ],
+    "evidence_ids": [
+      "s",
+      "patterns"
+    ],
+    "anchor": {
+      "text": "Okay, let’s slow this down. You’re worried we’ll miss it. I hear that. What would you need to know before you felt comfortable moving? We can take that one thing first.",
+      "source": "Fictional evaluation sample — spoken",
+      "evidence_id": "s"
+    },
+    "objections": [
+      {
+        "objection": "The payment is too high.",
+        "response": "I hear that the payment feels high. What monthly number would feel manageable?",
+        "evidence_ids": [
+          "o1"
+        ]
+      },
+      {
+        "objection": "We need more time.",
+        "response": "You want more time. What would help you feel clearer before we look again?",
+        "evidence_ids": [
+          "o2"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "profile",
+      "kind": "answer",
+      "text": "I work with first-time buyers in the fictional town of Maple Harbor. I am good at slowing a confusing process down. Clients who want me to promise a result are a poor fit. I want them to understand their budget and own the decision. I start by asking what is worrying them most, then draw out the next step.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "budget",
+      "kind": "decision_scenario",
+      "text": "A buyer wanted to stretch. I showed the full monthly costs and asked what had changed. We stayed at their original limit.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "inspection",
+      "kind": "decision_scenario",
+      "text": "A buyer wanted to waive the inspection. I explained what they would lose, then asked them to explain the risk back to me.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "price",
+      "kind": "decision_scenario",
+      "text": "A seller wanted a higher price. I showed the available comparisons and explained what we did not know. I did not promise a result.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "pause",
+      "kind": "decision_scenario",
+      "text": "My client could not explain the inspection deadline. I stopped and walked through it again before we continued.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "limits",
+      "kind": "answer",
+      "text": "AI can organize my notes and draft from facts I supply. It cannot choose a price or invent property features. Ask me when a property fact is missing or when a draft would commit me to a recommendation. No invented urgency. If it is unsure of my language, compare the sample and ask about the specific line.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "w",
+      "kind": "written_sample",
+      "text": "You have two workable options. The first keeps the payment where you wanted it. The second gets you the extra room, but it changes what you have left each month. I would start with that monthly number. We can look at the houses again once you feel clear about it. There is no need to decide from this email.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "s",
+      "kind": "spoken_sample",
+      "text": "Okay, let’s slow this down. You’re worried we’ll miss it. I hear that. What would you need to know before you felt comfortable moving? We can take that one thing first.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "patterns",
+      "kind": "answer",
+      "text": "My emails start with the choice, then show the consequence in short paragraphs. I say “two workable options.” I avoid “dream home” and “act now.” Exclamation-heavy cheerleading is not me. In conversation I say “let’s slow this down” and ask a short question. A three-paragraph monologue or “you have to” sounds wrong. Those two samples sound like me.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "o1",
+      "kind": "spoken_sample",
+      "text": "I hear that the payment feels high. What monthly number would feel manageable?",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "o2",
+      "kind": "spoken_sample",
+      "text": "You want more time. What would help you feel clearer before we look again?",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    },
+    {
+      "id": "review",
+      "kind": "answer",
+      "text": "Yes. The mission, rules, and both voices reflect how I work. Keep those exact examples.",
+      "source": "Fictional evaluation fixture; not a real client or agent",
+      "confirmed": true
+    }
+  ]
+}
