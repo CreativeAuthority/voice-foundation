@@ -1,0 +1,31 @@
+{
+  "name": "voice-foundation",
+  "version": "1.0.4",
+  "description": "Guided mission, decision rules, and voice foundation for real estate agents.",
+  "author": {
+    "name": "Matt Goldman / Creative Authority"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Voice Foundation",
+    "shortDescription": "Your judgment. Your voice.",
+    "longDescription": "Voice Foundation guides real estate agents through two conversations about their mission, decision rules, and written and spoken voice. It uses their own examples and reviewed answers to create a personal foundation, complete portable instructions, and a private writing skill. Start, write, and update workflows are included. File generation needs a host with code and file tools; PDF generation uses an optional library, with printable HTML when unavailable. Installing a generated personal skill may require a separate upload. No separate API key or Creative Authority server is required. The plugin adds no telemetry; the host platform processes and stores conversations and files under its own settings and policies.",
+    "developerName": "Creative Authority",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Run the voice foundation",
+      "Write this in my voice",
+      "Update my voice foundation"
+    ],
+    "brandColor": "#173F43",
+    "logo": "./assets/icon.svg",
+    "websiteURL": "https://www.agentslearnai.com",
+    "supportURL": "https://www.agentslearnai.com/support",
+    "privacyPolicyURL": "https://www.agentslearnai.com/privacy-policy",
+    "termsOfServiceURL": "https://www.agentslearnai.com/terms",
+    "composerIcon": "./assets/icon.svg"
+  }
+}

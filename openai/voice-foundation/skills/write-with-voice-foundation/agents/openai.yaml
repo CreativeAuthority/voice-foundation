@@ -1,0 +1,6 @@
+interface:
+  display_name: "Write this in my voice"
+  short_description: "Write this in my voice using my completed Voice Foundation: "
+  default_prompt: "Use $write-with-voice-foundation to help with my voice foundation."
+policy:
+  allow_implicit_invocation: true
