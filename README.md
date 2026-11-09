@@ -10,6 +10,10 @@ Most AI writing sounds like every other agent because it was trained on every ot
 - A branded PDF with a portable operating prompt you can paste into any AI, inside this system or out.
 - `write in my voice`, a drafting skill for listing descriptions, marketing copy, and client email that refuses to run on a generic register.
 
+## Choose your version
+
+The instructions below are for **Claude**. The **[ChatGPT and Codex pilot](openai/README.md)** is packaged separately; its public installation journey is still being verified.
+
 ## Requirements
 
 Claude Pro or Max, the Claude desktop app, and a folder connected to your session. Your foundation is saved to that folder and it is yours.
